@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onetono.onetono">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoticeListActivity"
+            android:label="@string/title_notice_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NoticeDetailActivity"
+            android:label="@string/title_notice_detail"
+            android:parentActivityName=".NoticeListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.NoticeListActivity" />
+        </activity>
+        <activity
+            android:name=".SecurityListActivity"
+            android:label="@string/title_security_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SecurityDetailActivity"
+            android:label="@string/title_security_detail"
+            android:parentActivityName=".SecurityListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.SecurityListActivity" />
+        </activity>
+        <activity
+            android:name=".ShopListActivity"
+            android:label="@string/title_shop_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShopDetailActivity"
+            android:label="@string/title_shop_detail"
+            android:parentActivityName=".ShopListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.ShopListActivity" />
+        </activity>
+        <activity
+            android:name=".ServiceListActivity"
+            android:label="@string/title_service_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ServiceDetailActivity"
+            android:label="@string/title_service_detail"
+            android:parentActivityName=".ServiceListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.onetono.onetono.ServiceListActivity" />
+        </activity>
+    </application>
+
+</manifest>

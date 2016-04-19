@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Onetono</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_notice_list">Notices</string>
+    <string name="title_notice_detail">Notice Detail</string>
+    <string name="title_security_list">Securities</string>
+    <string name="title_security_detail">Security Detail</string>
+    <string name="title_shop_list">Shops</string>
+    <string name="title_shop_detail">Shop Detail</string>
+    <string name="title_service_list">Services</string>
+    <string name="title_service_detail">Service Detail</string>
+</resources>
